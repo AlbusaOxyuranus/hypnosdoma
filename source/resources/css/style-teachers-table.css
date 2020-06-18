@@ -1,0 +1,54 @@
+.teacher-table {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .col {
+    flex: 25%;
+    padding: 10px;
+    max-width: 320px;
+    box-sizing: border-box;
+  }
+
+  .table {
+    background: #fff;
+    padding: 40px 20px;
+    font-family: "montserrat", sans-serif;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px #00000070;
+     margin-top: 20px;
+     margin-bottom: 20px;
+  }
+
+  .teacher-table .col:hover {
+    transform: scale(1.1,1.1);
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+    /* opacity: 0.7; */
+    z-index: 99;
+  }
+
+  .fio h4 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-family: "montserrat", sans-serif;
+  }
+
+  .photo img {
+       max-width: 100%;
+      max-height: 100%;
+    transform: scale(1.0,1.0);
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+  }
+  /* .card-img-wrapper {
+    overflow: hidden;
+    position: relative;
+  } */
