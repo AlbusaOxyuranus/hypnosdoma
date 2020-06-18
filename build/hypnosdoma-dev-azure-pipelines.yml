@@ -8,13 +8,11 @@ pool:
     vmImage: 'ubuntu-latest'
 
     trigger:
-    - master
     - dev
     - feature/*
     
     branches:
       - dev
-      - master
 
     variables:
       phpVersion: 7.2
