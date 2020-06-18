@@ -6,7 +6,7 @@
 
 pool:
     vmImage: 'ubuntu-latest'
-  branches:
+  branche:
     - master
     - dev
   variables:
